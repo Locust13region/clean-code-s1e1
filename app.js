@@ -80,8 +80,6 @@ function deleteTaskHandler (){
 	console.log("Delete Task...");
   const listItem = this.closest(".list__item");
   const ul = listItem.closest("ul");
-  console.log(listItem)
-  console.log(ul)
   ul.removeChild(listItem);
 }
 
